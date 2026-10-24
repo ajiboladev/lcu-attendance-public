@@ -1,16 +1,1 @@
-{
-  "cleanUrls": true,
-  "rewrites": [
-    { "source": "/:id", "destination": "/attend" }
-  ],
-  "headers": [
-    {
-      "source": "/(.*)",
-      "headers": [
-        { "key": "X-Content-Type-Options", "value": "nosniff" },
-        { "key": "X-Frame-Options", "value": "DENY" },
-        { "key": "Referrer-Policy", "value": "same-origin" }
-      ]
-    }
-  ]
-}
+{"cleanUrls":true,"rewrites":[{"source":"/:id","destination":"/attend.html"}],"headers":[{"source":"/(.*)","headers":[{"key":"X-Content-Type-Options","value":"nosniff"},{"key":"X-Frame-Options","value":"DENY"},{"key":"Referrer-Policy","value":"same-origin"}]}]}
